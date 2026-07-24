@@ -1,7 +1,9 @@
 Bug Reports - Text to Speech Converter
 
 Bug ID BUG01
-Summary, empty text is accepted for conversion instead of showing an error
+Summary
+
+empty text is accepted for conversion instead of showing an error
 Steps to reproduce, open the app, leave the text box empty, click convert
 Expected result, the button should be disabled or show an error message
 Actual result, the request went through and an almost silent audio file got created
