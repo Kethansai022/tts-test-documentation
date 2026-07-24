@@ -1,0 +1,53 @@
+Test Plan - Text to Speech Converter
+
+Project
+Text to Speech Converter web application
+
+What the app does:
+User types text, picks a language and voice, adjusts speed 
+and pitch, then converts the text into an audio file that 
+can be played or downloaded.
+
+STLC steps I followed :
+
+1. Requirement analysis
+I went through the app and noted down what it is supposed 
+to do, like accepting text input, converting it to audio, and 
+saving the history. I wrote these down as requirements 
+in the RTM file.
+
+2. Test planning
+This document. I decided what to test, what tools to use 
+and when testing would be considered done.
+
+3. Test case writing
+I wrote test scenarios first and then broke them into individual 
+test cases with steps and expected results.
+
+4. Environment setup
+Used Chrome and Firefox for the UI. Used Postman for the 
+API testing. Used MySQL client for checking the database. 
+Used JMeter for a basic check on repeated requests.
+
+5. Test execution
+Ran smoke tests first, then functional, then API and database 
+tests, then regression after bugs were fixed, and some 
+exploratory testing at the end.
+
+6. Test closure
+Checked that all test cases were run, listed the open bugs, 
+and wrote down what I learned in the README file.
+
+What I tested:
+Text input field, language dropdown, voice selection, speed and 
+pitch sliders, audio playback, file download, the convert API endpoint
+and the conversion history table in the database.
+
+What I did not test:
+The actual audio quality from the TTS engine itself since that is a 
+third party service. Also did not do full load testing, only a basic check 
+with JMeter. Did not test on mobile apps, only the website.
+
+When testing is done:
+All planned test cases have been run, there are no major bugs left open 
+and every requirement has at least one test case linked to it.
