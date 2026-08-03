@@ -1,5 +1,6 @@
 Bug Reports - Text to Speech Converter
 
+
 Bug ID - BUG01
 
 Summary: empty text is accepted for conversion instead of showing an error
@@ -15,6 +16,7 @@ Severity: high
 Priority: high
 
 Status: fixed and re-tested in TC14
+
 
 
 Bug ID - BUG02
@@ -34,6 +36,7 @@ Priority: medium
 Status: open
 
 
+
 Bug ID - BUG03
 
 Summary: audio stops playing after 2 seconds when pitch is set to max
@@ -49,6 +52,7 @@ Severity: high
 Priority: medium
 
 Status: open
+
 
 
 Bug - ID BUG04
@@ -68,6 +72,7 @@ Priority: low
 Status: open
 
 
+
 Bug ID - BUG05
 
 Summary: wrong language code causes a server error instead of a normal error message
@@ -85,7 +90,9 @@ Priority: medium
 Status: open
 
 
+
 Bug ID - BUG06
+
 Summary: failed conversions are marked as successful in the database
 
 Steps to reproduce: cause a conversion to fail then check the conversion history table
