@@ -19,7 +19,6 @@ Key files:
 
 test_plan.txt - the test plan with STLC steps
 test_cases.md - test scenarios and test cases
-rtm.md - requirement traceability matrix
 bug_reports.md - bugs I found while testing
 
 
