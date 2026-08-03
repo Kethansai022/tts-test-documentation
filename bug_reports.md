@@ -1,6 +1,7 @@
 Bug Reports - Text to Speech Converter
 
 Bug ID - BUG01
+
 Summary: empty text is accepted for conversion instead of showing an error
 Steps to reproduce: open the app, leave the text box empty, click convert
 Expected result: the button should be disabled or show an error message
@@ -10,6 +11,7 @@ Priority: high
 Status: fixed and re-tested in TC14
 
 Bug ID - BUG02
+
 Summary: emoji in the text causes a glitchy sound in the audio
 Steps to reproduce: type a sentence with an emoji in it and convert
 Expected result: emoji should be skipped or rejected with a message
